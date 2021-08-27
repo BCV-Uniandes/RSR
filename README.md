@@ -1,6 +1,6 @@
 # RSR
 This is the official implementation of the paper: Generalized Real-World Super-Resolution through Adversarial Robustness.
-Find the paper and other resources in our (webpage)[https://cinfonia.uniandes.edu.co/publications/generalized-real-world-super-resolution-through-adversarial-robustness/].
+Find the paper and other resources in our [webpage](https://cinfonia.uniandes.edu.co/publications/generalized-real-world-super-resolution-through-adversarial-robustness/).
 
 ![](./figure1.png)
 
