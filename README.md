@@ -1,6 +1,12 @@
-# Robust Super-Resolution (RSR)
 This is the official implementation of the paper: Generalized Real-World Super-Resolution through Adversarial Robustness.
-Find the paper and other resources in our [webpage](https://cinfonia.uniandes.edu.co/publications/generalized-real-world-super-resolution-through-adversarial-robustness/).
+
+## Paper
+[Generalized Real-World Super-Resolution through Adversarial Robustness](https://arxiv.org/pdf/2108.11505.pdf) <br/>
+[Angela Castillo]()<sup> 1</sup>, [María Escobar]()<sup> 1</sup>, [Juan C. Pérez]()<sup> 1, 2</sup>, [Andrés Romero](https://afromero.co/en)<sup> 3</sup>, [Radu Timofte](https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en)<sup> 3</sup>, [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en)<sup> 3</sup>, [Pablo Arbelaez](https://scholar.google.com.co/citations?user=k0nZO90AAAAJ&hl=en)<sup>1</sup> <br/>
+<sup>1 </sup>Center for Research and Formation in Artificial Intelligence ([CinfonIA](https://cinfonia.uniandes.edu.co)), Universidad de Los Andes. <br/>
+<sup>1 </sup>Image and Video Understanding Lab ([IVUL](https://cemse.kaust.edu.sa/ivul)) , KAUST. <br/>
+<sup>3 </sup>Computer Vision Lab ([CVL](https://www.vision.ee.ethz.ch/en/)), ETH Zürich. <br/>
+<br/>
 
 ![](./figure1.png)
 
@@ -9,3 +15,5 @@ Real-world Super-Resolution (SR) has been traditionally tackled by first learnin
 
 ## Code
 Stay tuned.
+
+Find other resources in our [webpage](https://cinfonia.uniandes.edu.co/publications/generalized-real-world-super-resolution-through-adversarial-robustness/).
