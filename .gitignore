@@ -1,0 +1,14 @@
+**/__pycache__/**
+**/*.pt*
+**/*.pyc
+experiments/*
+**/*.log*
+datasets/**
+tb_logger/**
+__pycache__/**
+results/**
+./datasets/*
+wandb/*
+*.m
+metrics/*
+RSR.egg-info/**

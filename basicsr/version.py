@@ -1,5 +1,5 @@
 # GENERATED VERSION FILE
-# TIME: Fri Oct  8 06:20:10 2021
-__version__ = '1.2.0+unknown'
+# TIME: Mon Oct 11 04:02:23 2021
+__version__ = '1.2.0+f83fd55'
 short_version = '1.2.0'
 version_info = (1, 2, 0)
