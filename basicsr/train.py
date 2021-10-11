@@ -220,7 +220,8 @@ def main():
                 current_iter, warmup_iter=opt['train'].get('warmup_iter', -1))
             # training
             model.feed_data(train_data)
-            model.optimize_parameters(current_iter)
+            noise = model.pgd_attack(current_iter)
+            model.optimize_parameters(current_iter, noise)
             iter_time = time.time() - iter_time
             # log
             if current_iter % opt['logger']['print_freq'] == 0:
