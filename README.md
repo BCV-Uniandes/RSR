@@ -47,7 +47,7 @@ This is the official implementation of the paper: Generalized Real-World Super-R
 
 - Please refer to [this web page](https://github.com/xinntao/BasicSR/blob/d21eac885b6de90a7adef7cc59e937dbdbb200b1/docs/DatasetPreparation.md#div2k) for details about the dataset organization and dataset augmentation.
 
-## Train and Test
+## Train
 
 - **Training command**: 
 
@@ -58,9 +58,9 @@ This is the official implementation of the paper: Generalized Real-World Super-R
 - **Options/Configs**: Please check to [Config.md](https://github.com/xinntao/BasicSR/blob/d21eac885b6de90a7adef7cc59e937dbdbb200b1/docs/Config.md).
 - **Logging**: Please refer to [Logging.md](https://github.com/xinntao/BasicSR/blob/d21eac885b6de90a7adef7cc59e937dbdbb200b1/docs/Logging.md).
 
-## Pre-trained Model 
+## Pre-trained Model and Test
 
-- The link to our RSR pre-trained model will be available soon. 
+- The link to our RSR pre-trained model and the testing command will be available soon. 
 
 ## Citations
 
