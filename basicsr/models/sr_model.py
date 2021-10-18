@@ -185,7 +185,7 @@ class SRModel(BaseModel):
                             metric_module, metric_type)(self.output.clamp_(*(0, 1)), self.gt, self.device)
                         lpips_indiv = getattr(metric_module, metric_type)(self.output.clamp_(*(0, 1)), self.gt, self.device)
                         lpips_.append(getattr(metric_module, metric_type)(self.output.clamp_(*(0, 1)), self.gt, self.device))
-                        print(f'lpips for image {img_name} LPIPS: {lpips_indiv:.4f}')
+                        # print(f'lpips for image {img_name} LPIPS: {lpips_indiv:.4f}')
                     else:
                         self.metric_results[name] += getattr(
                             metric_module, metric_type)(sr_img, gt_img, **opt_)
