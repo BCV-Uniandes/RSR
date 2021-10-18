@@ -100,9 +100,7 @@ class RSRModel(SRGANModel):
     def pgd_attack(self, current_iter):
         def clamp(X, lower_limit, upper_limit):
             return torch.max(torch.min(X, upper_limit), lower_limit)
-        import visdom 
-        import torchvision
-        vis = visdom.Visdom(env='debug')
+        
         alpha = 1./255.
         
         # optimize net_g
