@@ -60,7 +60,7 @@ This is the official implementation of the paper: Generalized Real-World Super-R
 
 ## Pre-trained Model and Test
 
-- Find [here](https://drive.google.com/file/d/1YOfy8ZPv8hnr9qEpbQTo0IGIQNRYsDwS/view?usp=sharing) our pre-trained model. 
+- Find [here](https://drive.google.com/drive/folders/1xtFRVrp2BHnOop9F_KO8i5aW1tVTLexD?usp=sharing) our pre-trained model. 
 - The testing command will be available soon. 
 
 ## Citations
