@@ -60,7 +60,8 @@ This is the official implementation of the paper: Generalized Real-World Super-R
 
 ## Pre-trained Model and Test
 
-- The link to our RSR pre-trained model and the testing command will be available soon. 
+- Find [here](https://drive.google.com/file/d/1YOfy8ZPv8hnr9qEpbQTo0IGIQNRYsDwS/view?usp=sharing) our pre-trained model. 
+- The testing command will be available soon. 
 
 ## Citations
 
