@@ -61,7 +61,11 @@ This is the official implementation of the paper: Generalized Real-World Super-R
 ## Pre-trained Model and Test
 
 - Find [here](https://drive.google.com/drive/folders/1xtFRVrp2BHnOop9F_KO8i5aW1tVTLexD?usp=sharing) our pre-trained model. 
-- The testing command will be available soon. 
+- **Test command**: 
+
+    ```bash
+    bash test.sh
+    ```
 
 ## Citations
 
