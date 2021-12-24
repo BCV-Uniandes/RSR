@@ -1,0 +1,65 @@
+name: RSR
+model_type: ESRGANModel
+scale: 4
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 0
+
+datasets:
+
+  test_1:
+    name: NTIRE20
+    type: PairedImageDataset
+    dataroot_gt: datasets/DIV2K/DIV2K_valid_HR
+    dataroot_lq: datasets/NTIRE20/track1-valid-input
+    # filename_tmpl: ''
+    io_backend:
+      type: disk
+
+  test_2:
+    name: AIM19
+    type: PairedImageDataset
+    dataroot_gt: datasets/DIV2K/DIV2K_valid_HR
+    dataroot_lq: datasets/AIM19/valid-input-noisy
+    # filename_tmpl: ''
+    io_backend:
+      type: disk
+    
+  test_3:  # the 1st test dataset
+    name: Smartphone
+    type: SingleImageDataset
+    dataroot_lq: datasets/Smartphone/track2-test-input
+    io_backend:
+      type: disk
+  
+
+# network structures
+network_g:
+  type: RRDBNet
+  num_in_ch: 3
+  num_out_ch: 3
+  num_feat: 64
+  num_block: 23
+  num_grow_ch: 32
+
+# path
+path:
+  pretrain_network_g: model/RSR.pth
+  strict_load_g: true
+
+# validation settings
+val:
+  save_img: true
+  suffix: ~  # add suffix to saved images, if None, use exp name
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: false
+    ssim:
+      type: calculate_ssim
+      crop_border: 4
+      test_y_channel: false
+    lpips: # metric name, can be arbitrary
+      type: calculate_lpips
+
